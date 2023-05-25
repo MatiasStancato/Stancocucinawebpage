@@ -8,26 +8,31 @@
 body{
     background-image: radial-gradient(#EFE6DD,#D8C2AC)
 }
+/* asignacion de espacio en la grid area */
 .header{
     grid-area:header;
     display: flex;
     flex-direction: column;
     border-bottom: .5px solid #56252E;
 }
+/* asignacion de espacio en la grid area */
 .main{
     grid-area:main;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+/* asignacion de espacio en la grid area */
 .secundario{
     grid-area:secundario;
 }
+/* asignacion de espacio en la grid area */
 .footer{
     grid-area: footer;
     background-color: #ca969a40;
     padding-top: 15px;
 }
+/* asignacion de espacio en la grid area */
 .seccionmenu{
     grid-area:seccionmenu;
 }
@@ -75,10 +80,22 @@ h2{
 .navbar-toggler{
     color:#A54657
 }
+/* animacion para el icono productos */
 .buttonprod:hover{
     background: white ;
     color: #56252E;
 }
+.whatsapp{
+    max-width: 4em;
+    position: fixed;
+        right: 20px;
+        bottom: 30px;
+    }
+/* animacion para el icono de whatsapp */
+.whatsapp:hover{
+    transform: scale(1.5);
+}    
+
 .contenedor{
     width: 100vw;
     height:100vh;
@@ -130,8 +147,6 @@ h2{
         max-height: 6em;
         justify-self:center ;
         align-self: center;
-
-    
     } 
     .secundario{
         align-content: space-between;
@@ -145,12 +160,7 @@ h2{
         font-size: 2em;
         text-align: center;
     }
-    .whatsapp{
-        max-width:4em;
-        position: fixed;
-        left: 1450px;
-        bottom: 30px;
-    }
+
     .listanav a:hover{
         background: white ;
         color: #56252E;
@@ -161,6 +171,7 @@ h2{
         display: none;
     }
 }
+
 /* tablet */
 @media screen and (min-width:577px) and (max-width:768px){
     .contenedor{
@@ -242,12 +253,6 @@ p{
     max-height: auto;
     border-radius: 40%;
 }
-.whatsapp{
-    max-width:4em;
-    position: fixed;
-    left: 550px;
-    bottom: 30px;
-}
 }
 /* mobile */
 @media screen and (max-width:576px){
@@ -288,13 +293,6 @@ p{
         color: #A54657;
         font-weight: 600;
     }
-    .whatsapp{
-        max-width:4em;
-        position: fixed;
-        left: 450px;
-        bottom: 30px;
-    }
-
 }
 /* PAGINA RECETAS RESPOSIVE+BOOTSTRAP */
 

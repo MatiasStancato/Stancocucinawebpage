@@ -16,16 +16,18 @@
     <!--  Link Css    -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body>          
+                <!-- ESTA PAGINA ESTA HECHA CON GRID, SOLO USA BS PARA EL MENU DEL VIEWPORT MOBILE -->
+                                    <!-- HEADER -->
     <div class="contenedor">
         <header class="header" id="header">
             <img src="img/stanco logo 500x500.png" alt="Stanco Logo" class="logo stanco">
             <nav class="navbar navbar-expand-sm menuexpandible">
                 <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse navbardesktop" id="navbarNav">
+                        </button>
+                    <div class="collapse navbar-collapse navbardesktop" id="navbarNav">
                         <ul class="listanav">
                             <li><a href="./pages/recetas.html">Recetas</a></li>
                             <li><a href="./pages/Productos.html">Productos</a></li>
@@ -33,11 +35,12 @@
                             <li><a href="./pages/contacto.html">Contacto</a></li>
                             <li><label for="search">Buscar:</label><input type="text" name="search" placeholder="Productos,recetas,etc"></li>
                         </ul>
-                </div>
+                    </div>
                 </div>
             </nav>
         </header>
-    <main class="main">  
+                                    <!-- ARTICULO PRINCIPAL -->
+    <main class="main">             
         <h1 class="titulo">Bienvenidos a Stanco Cucina</h1>
                 <img src="img/torta azuly blanca.jpg" alt="Torta azul" class="torta">
     </main>  
@@ -49,19 +52,20 @@
                 Además, nos enorgullece ofrecer un servicio al cliente excepcional, desde la navegación por nuestro sitio web hasta la entrega de su pastel. Estamos aquí para ayudarte en cada paso del proceso y asegurarnos de que tu experiencia con nosotros sea lo más placentera posible.
                 ¡No esperes más para probar nuestras tortas! Explora nuestra selección en línea y haz tu pedidohoy mismo. Te garantizamos que te sorprenderemos y satisfaremos tu paladar con cada bocado.</P>
                 <a href="./pages/Productos.html" class="buttonprod">Productos</a>
-            </div>
-            <div class="seccionmenu">
-                        <ul class="listanavmenu">
-                            <li><a href="./pages/recetas.html"><img src="img/recetas icon.png" alt="recetas">   Recetas</a></li>
-                            <li><a href="./pages/Productos.html"><img src="img/productos icon.png" alt="Productos">Productos</a></li>
-                            <li><a href="./pages/quienessomos.html"><img src="img/quienessomos.png" alt="Quienessomos">Quienes Somos</a></li>
-                            <li><a href="./pages/contacto.html"><img src="img/contacto-png.png" alt="contacto">Contacto</a></li>   
-                            <li><label for="search">Buscar:</label><input type="text" name="search" placeholder="Productos,recetas,etc"></li>
-                        </ul>
-            </div>    
+        </div>
+        <div class="seccionmenu">
+                <ul class="listanavmenu">
+                    <li><a href="./pages/recetas.html"><img src="img/recetas icon.png" alt="recetas">   Recetas</a></li>
+                    <li><a href="./pages/Productos.html"><img src="img/productos icon.png" alt="Productos">Productos</a></li>
+                    <li><a href="./pages/quienessomos.html"><img src="img/quienessomos.png" alt="Quienessomos">Quienes Somos</a></li>
+                    <li><a href="./pages/contacto.html"><img src="img/contacto-png.png" alt="contacto">Contacto</a></li>   
+                    <li><label for="search">Buscar:</label><input type="text" name="search" placeholder="Productos,recetas,etc"></li>
+                </ul>
+        </div>    
                             <!-- Icono fixed de Whatsapp  -->
         <a href="https://api.whatsapp.com/message/AJVZAWOHWTYFD1?autoload=1&app_absent=0">
         <img src="img/logo whatsapp.png" alt="Whatsapp" class="whatsapp"></a>
+                            <!-- FOOTER -->
         <footer class="footer">
             <nav class="footernav">
                 <ul>
@@ -80,7 +84,6 @@
                 </ul>
             </nav>    
                 <p>Todos los derechos reservados</p>
-
         </footer> 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>            
